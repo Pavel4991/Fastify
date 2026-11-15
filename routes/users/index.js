@@ -1,6 +1,6 @@
 export default async function (fastify, opts) {
   fastify.get('/', (request, reply) => {
-      return reply.send(users)
+      return reply.view("./src/views/users/index")
   })
 
   fastify.get('/:id', (request, reply) => {

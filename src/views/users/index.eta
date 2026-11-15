@@ -1,0 +1,14 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Hello Hexlet!</title>
+    <link rel="stylesheet" href="/assets/bootstrap.min.css">
+  </head>
+  <body>
+    <main>
+      <div class="d-flex justify-content-center">
+        <h1>Users page!</h1>
+      </div>
+    </main>
+  </body>
+</html>
