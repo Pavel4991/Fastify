@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="/assets/bootstrap.min.css">
+  </head>
+  <body class="d-flex flex-column min-vh-100">
+    <header>
+        <nav class="nav container">
+            <a class="nav-link" href="/">Главная</a>
+            <a class="nav-link" href="/users">Пользователи</a>
+        </nav>
+    </header>
+    <main class="container d-flex flex-column justify-content-center">
+        <h1><%= it.pageTitle %></h1>
+        <%~ it.body %>
+    </main>
+    <footer class="footer mt-auto text-center">
+      <div class="text-center p-3">
+        © 2026 GitHub:
+        <a class="text-dark text-decoration-none fw-bold" href="https://github.com/Pavel4991">Pavel_Dzen</a>
+      </div>
+    </footer>
+  </body>
+</html>
